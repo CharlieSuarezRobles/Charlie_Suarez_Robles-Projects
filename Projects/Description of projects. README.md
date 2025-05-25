@@ -16,11 +16,31 @@ On the backend, members learn to build routers, routes, and more function handle
 
 # **3 Project Series 2023 (The files are called Project 1, 2, & 3)**
 
-This folder contains three projects I did in my python introductory class. In "Project 1," I used the library "csv" to retrive data from a file called zonann_temps. In "Project 2,"
-I used "PIL" to create four filtering functions that could access and filter images; I put all functions together into project() and made them create a new image with distinct filters from the three
-jpg. images combined. In "Project 3," I created a game called "Avoid the X's" using the "Random" class; I implemented eight functions, each for: running the game, running each of the five levels,
-displaying the instructions, displaying the game board, displaying the lives and the numbers selected in the game board, comparing the numbers you and the computer selected, and displaying
-the "GG" or the "XX" result on the board. For further details, please see each project file. 
+This folder contains three projects I completed in my Python introductory class.
+
+Project 1: I used the csv library to retrieve data from a file called zonann_temps.
+
+Project 2: I used the PIL library to create four image filtering functions. These functions could access and filter images. I combined them using a function called project() to produce a new image with distinct filters applied to three JPG files.
+
+Project 3: I created a game called "Avoid the X's" using the random module. I implemented eight functions to:
+
+Run the game
+
+Run each of the five levels
+
+Display the instructions
+
+Display the game board
+
+Display the lives and selected numbers
+
+Compare your selected numbers with the computer’s
+
+Display a "GG" or "XX" result on the board
+
+Handle gameplay progression
+
+For further details, please see each individual project file.
 
 # **Computer Chords 2024 (The file is called PlaySound.c)**
 
