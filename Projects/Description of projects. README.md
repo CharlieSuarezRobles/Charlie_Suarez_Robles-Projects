@@ -44,4 +44,24 @@ For further details, please see each individual project file.
 
 # **Computer Chords 2024 (The file is called PlaySound.c)**
 
-This folder also contains a personal project I made which combined my passion for music with my software engineering skills. The project consists of one file called PlaySound.c. This code in this file interacts with the computer's audio devices to produce sound in form of chords. It does that by using three special functions called "snd_pcm_open", "snd_pcm_set_params", and "snd_pcm_writei" all which come from a linux software framework called ALSA. The file also uses one main function and three helper functions called "play_chord" (it stores the information about a chord), "save_note" (it saves the information of a note into an array), and "play_signal" (uses the special function called "snd_pcm_writei" to tell the sound card to play a given chord) which with the help of the three ALSA functions play the desired chord.
+This folder contains a personal project that combines my passion for music with my software engineering skills. The project consists of a single file named PlaySound.c.
+
+The code in this file interacts with the computer's audio device to produce sound in the form of chords. It does this using three key functions from the ALSA (Advanced Linux Sound Architecture) framework:
+
+snd_pcm_open
+
+snd_pcm_set_params
+
+snd_pcm_writei
+
+These functions allow the program to configure and send sound data to the audio hardware.
+
+The file also includes one main function and three helper functions:
+
+play_chord: stores information about a chord
+
+save_note: saves note data into an array
+
+play_signal: calls snd_pcm_writei to output the sound signal for a chord
+
+Together, these functions work with the ALSA library to generate and play musical chords through the computer's audio system.
