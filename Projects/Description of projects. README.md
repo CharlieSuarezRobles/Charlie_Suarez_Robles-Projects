@@ -1,6 +1,6 @@
 # **Triton Software Engineering Project (Onboarding Repository)**
 
-The onboarding repository is a set of instructions and readings that incoming TSE members have to complete prior to becoming TSE developers. The product that comes
+  The onboarding repository is a set of instructions and readings that incoming TSE members have to complete prior to becoming TSE developers. The product that comes
 from this project is a website where the user can input a task and a description. Once the user clicks a button, the name and description appear inside of a list
 of tasks that the user can check and uncheck. Besides this, the website also handles user accounts.
 To achieve this product, the onboarding repository talks about the structure that an application built on TSE tends to follow as well as the purpose of each file
